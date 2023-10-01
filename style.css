@@ -13,34 +13,6 @@ body{
     width: 100%;
 }
 
-#frontlogo {
-    width: 154.9px;
-    height: 46.1px;
-}
-
-.button {
-    display: flex;
-    padding: 15px 25px;
-    align-items: flex-start;
-    gap: 20px;
-    border-width: 0;
-    border-radius: 30px;
-    background: #2476FF;
-}
-
-#btntext {
-    color: #FFF;
-}
-
-.text {
-    color: #677788;
-    text-decoration: none;
-}
-
-a:hover { color:#2476FF;}
-
-ul {list-style-type: none;}
-
 .header {
     display: flex;
     height: 86px;
@@ -54,4 +26,80 @@ ul {list-style-type: none;}
     padding: 6px 14px;
     align-items: center;
     gap: 30px;
+}
+
+a:hover { color:#2476FF;}
+
+ul {list-style-type: none;}
+
+.linktext {
+    color: #677788;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    gap: 8px;
+    border-width: 0;
+    border-radius: 30px;
+    background: #2476FF;
+}
+
+#btntext {
+    color: #FFF;
+}
+
+.hero {
+    display: flex;
+    width: 1024px;
+    padding: 40px 30px 0px 30px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.left {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.toptext {
+    display: flex;
+    width: 334px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.title {
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.learnmore {
+    color: #2476FF;
+    text-decoration: none;
+    font-weight: 700;
 }
