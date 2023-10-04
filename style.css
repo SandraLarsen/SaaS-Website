@@ -34,6 +34,32 @@ h3 {
 
 ul {list-style-type: none;}
 
+.button {
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    gap: 8px;
+    border-width: 0;
+    border-radius: 30px;
+    background: #2476FF;
+}
+
+#btntext {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    max-width: 600px;
+}
+
 .header {
     display: flex;
     height: 86px;
@@ -54,22 +80,6 @@ ul {list-style-type: none;}
     .linktext {
         color: #677788;
         text-decoration: none;
-    }
-
-    .button {
-        display: flex;
-        padding: 15px 25px;
-        align-items: center;
-        gap: 8px;
-        border-width: 0;
-        border-radius: 30px;
-        background: #2476FF;
-    }
-
-    #btntext {
-        color: #FFF;
-        font-size: 12px;
-        font-weight: 500;
     }
 
 .hero {
@@ -123,13 +133,6 @@ ul {list-style-type: none;}
     gap: 60px;
     align-self: stretch;
 }
-
-    .benefits-title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
 
     .benefit-list {
         display: flex;
@@ -210,4 +213,31 @@ ul {list-style-type: none;}
 
     .bannerimg1 {
         max-height: 353px;
+    }
+
+.whyfront {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.bulletslist {
+    display: flex;
+    padding: 0px 34px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+    .bullet {
+        display: flex;
+        padding: 26px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        display: flex;
+        flex: 1 0 0;
     }
