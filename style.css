@@ -1,7 +1,6 @@
 body{
     padding: 0;
     margin: 0;
-    overflow: hidden;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #677788;
@@ -91,6 +90,17 @@ p {
     margin: 0;
 }
 
+h2 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #000;
+    font-size: 16px;
+}
+
 .actions {
     display: flex;
     align-items: center;
@@ -102,4 +112,70 @@ p {
     color: #2476FF;
     text-decoration: none;
     font-weight: 700;
+}
+
+.key-benefits {
+    display: flex;
+    padding: 120px 0px 80px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+}
+
+.benefits-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.benefit-list {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    height: auto;
+}
+
+.benefit-item {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #FFF;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.item-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.top-part {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.status {
+    display: flex;
+    padding: 4px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 15px;
+    background: #01C9A7;
+    color: #FFF;
 }
